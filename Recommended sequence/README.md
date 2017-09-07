@@ -8,7 +8,7 @@
 <code class=" language-c">abcabcabcababababc</code>  
 ### 1.其他规则
 数字可以大于个位，例如<code class=" language-c">10[a]</code>是被允许的，它代表<code class=" language-c">aaaaaaaaaa</code>  
-一次递归压缩是被允许的，例如<code class=" language-c">2[3[a]b]</code>，它代表<code class=" language-c">aaabaaab</code>  
+一次重复可以被另一次重复包含，例如<code class=" language-c">2[3[a]b]</code>，它代表<code class=" language-c">aaabaaab</code>  
 被压缩的字符串可以包括数字，小写英文字母和中括号。  
 数字仅仅被用来表达重复的次数。  
 字母仅仅是字母。  
